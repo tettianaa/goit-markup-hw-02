@@ -9,7 +9,7 @@ body {
 .link-logo {
     color:  #4D5AE5;
         font-family: Raleway,sans-serif;
-        font-size: 700;
+        font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.54px;
@@ -19,7 +19,7 @@ body {
 .logo-studio {
     color:  #2E2F42;
         font-family: Raleway,sans-serif;
-        font-size: 700;
+font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.54px;
@@ -50,11 +50,15 @@ ul {
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
+.address-section {
+    font-style: normal;
+}
 .head-address-item {
     color: #434455;
         line-height: 1.5;
         font-style: normal;
         letter-spacing: 0.32px;
+        text-decoration: none;
 }
 .head-address-item:hover {
     color:  #404BBF;
@@ -185,7 +189,7 @@ color: #404BBF;
         font-family: Raleway,sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
@@ -195,7 +199,7 @@ color: #404BBF;
         font-family: Raleway,sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
