@@ -2,23 +2,26 @@ body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     background: #FFF;
+    color: #434455;
 }
 /* header section */
 
 .link-logo {
     color:  #4D5AE5;
-        font-family: Raleway;
+        font-family: Raleway,sans-serif;
+        font-size: 700;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
 }
 .logo-studio {
     color:  #2E2F42;
-        font-family: Raleway;
+        font-family: Raleway,sans-serif;
+        font-size: 700;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
@@ -35,24 +38,36 @@ ul {
         letter-spacing: 0.32px;
         text-decoration: none;
 }
-.nav-item:active {
+.nav-item:hover {
     color: #404BBF;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
-.address-item {
+.nav-item:focus {
+    color: #404BBF;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
+.head-address-item {
     color: #434455;
         line-height: 1.5;
         font-style: normal;
         letter-spacing: 0.32px;
 }
-.address-item:active {
+.head-address-item:hover {
     color:  #404BBF;
         line-height: 1.5;
+        font-style: normal;
         letter-spacing: 0.32px;
 }
-
+.head-address-item:focus {
+color: #404BBF;
+    line-height: 1.5;
+    font-style: normal;
+    letter-spacing: 0.32px;
+}
 /* hero section */
 
 .hero-section {
@@ -69,15 +84,19 @@ ul {
 .hero-button {
     background:  #4D5AE5;
         color: #FFF;
+        font-family: Roboto,sans-serif;
+        font-size: 16px;
             font-weight: 500;
             line-height: 1.5;
-            letter-spacing: 0.64px;
+            letter-spacing: 0.04em;
             cursor: pointer;
 }
 .hero-button:hover {
         background:  #404BBF;
 }
-
+.hero-button:focus {
+    background: #404BBF;
+}
 
 /* section 2 */
 
@@ -112,6 +131,10 @@ ul {
         line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
+    
+}
+.team-item-list {
+    background-color: #FFFFFF;
 }
 .team-list {
     color: #2E2F42;
@@ -159,7 +182,7 @@ ul {
 }
 .footer-link-logo {
     color:  #4D5AE5;
-        font-family: Raleway;
+        font-family: Raleway,sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.16;
@@ -169,7 +192,7 @@ ul {
 }
 .footer-logo-studio {
     color: #F4F4FD;
-        font-family: Raleway;
+        font-family: Raleway,sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.16;
